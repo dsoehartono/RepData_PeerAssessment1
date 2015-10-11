@@ -162,4 +162,4 @@ g <- ggplot(interval_full, aes(x=interval, y=steps, color = weektype)) +
 print(g)
 ```
 
-From the plots it seems the object is more active throughout the day during weekends.
+From the plots it seems the object is more active throughout the day during weekends than on weekdays.

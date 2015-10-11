@@ -10,35 +10,8 @@ library(knitr)
 opts_chunk$set(echo = TRUE)
 
 library(dplyr)
-```
-
-```
-## 
-## Attaching package: 'dplyr'
-## 
-## The following objects are masked from 'package:stats':
-## 
-##     filter, lag
-## 
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union
-```
-
-```r
 library(lubridate)
 library(ggplot2)
-```
-
-```
-## Find out what's changed in ggplot2 with
-## news(Version == "1.0.1", package = "ggplot2")
-## 
-## Attaching package: 'ggplot2'
-## 
-## The following object is masked _by_ '.GlobalEnv':
-## 
-##     diamonds
 ```
 
 
@@ -320,4 +293,4 @@ print(g)
 
 ![plot of chunk unnamed-chunk-16](figure/unnamed-chunk-16-1.png) 
 
-From the plots it seems the object is more active throughout the day during weekends.
+From the plots it seems the object is more active throughout the day during weekends than on weekdays.
